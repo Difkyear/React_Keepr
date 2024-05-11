@@ -20,6 +20,11 @@ function App() {
       });
     });
   }
+
+  function flipIsClicked() {
+    setClicked((previous) => !previous);
+    console.log(Clicked);
+  }
   return (
     <div>
       <Header />
