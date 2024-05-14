@@ -4,6 +4,7 @@ import Footer from "./Footer";
 import Note from "./Note";
 import CreateArea from "./CreateArea";
 import notesa from "../notes";
+
 function App() {
   let [notes, setNotes] = useState(notesa);
   function addContent(valueObject) {
